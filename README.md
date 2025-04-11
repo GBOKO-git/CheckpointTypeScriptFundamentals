@@ -42,8 +42,9 @@ mon-projet-typescript/
 Exemple :
 
 ```ts
-const maVoiture = new Voiture("Toyota", "Corolla", 2020);
-maVoiture.start(); // Affiche "Car engine started"
+const myCar = new Voiture("Toyota", "Corolla", 2020);
+myCar.start(); // Affiche "Car engine started";
+console.log(myCar)
 ```
 
 ---
